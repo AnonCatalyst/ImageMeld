@@ -2,7 +2,6 @@ import sys
 import subprocess
 from file_embedder import embed_file_in_image, compress_files
 
-
 class Colors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
