@@ -5,9 +5,8 @@
 ## Features
 - **File Embedding**: Embed one or more files into an image without noticeable changes.
 - **ZIP Compression**: Optional automatic compress multiple files into a single ZIP archive before embedding.
-- **Easy Extraction**: Effortlessly extract embedded files from the image.
 - **Dependency Management**: Automatically checks and installs required dependencies.
-- **User-Friendly Interface**: Interactive prompts guide you through the embedding and extraction process.
+- **User-Friendly Interface**: Interactive prompts guide you through the embedding process.
 
 ## Install & Run
 
@@ -22,7 +21,6 @@
 Welcome to ImageMeld!
 Choose an option:
 1. Embed files into an image
-2. Extract embedded files from an image
 0. Exit
 Enter your choice: 1
 Enter the path to the input image file: Chase-National-Bank-Logo-500x281.ico
