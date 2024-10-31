@@ -1,7 +1,7 @@
 import sys
 import subprocess
 from file_extractor import extract_embedded_files, Colors
-from file_embedder import embed_file_in_image, compress_files
+
 
 class Colors:
     HEADER = '\033[95m'
@@ -29,7 +29,6 @@ def main_menu():
     print(f"{Colors.HEADER}{Colors.BOLD}Welcome to ImageMeld!{Colors.ENDC}")
     print("Choose an option:")
     print(f"{Colors.OKBLUE}1. Embed files into an image{Colors.ENDC}")
-    print(f"{Colors.OKBLUE}2. Extract embedded files from an image{Colors.ENDC}")
     print(f"{Colors.FAIL}0. Exit{Colors.ENDC}")
 
     choice = input("Enter your choice: ")
@@ -66,19 +65,6 @@ def main():
             # Embedding functionality
             embed_file_menu()
         
-        elif choice == '2':
-            # Extract embedded files
-            image_path = input("Enter the path to the image file to extract files from: ")
-            try:
-                extracted_files = extract_embedded_files(image_path)
-                if extracted_files:
-                    for file in extracted_files:
-                        print(f"{Colors.OKGREEN}Extracted {file['name']} of size {file['size']} bytes.{Colors.ENDC}")
-                else:
-                    print(f"{Colors.WARNING}No embedded files found.{Colors.ENDC}")
-            except Exception as e:
-                print(f"{Colors.FAIL}Error during extraction: {e}{Colors.ENDC}")
-
         elif choice == '0':
             print(f"{Colors.OKGREEN}Exiting ImageMeld. Goodbye!{Colors.ENDC}")
             break
