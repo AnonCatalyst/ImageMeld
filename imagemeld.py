@@ -1,6 +1,6 @@
 import sys
 import subprocess
-from file_extractor import extract_embedded_files, Colors
+from file_embedder import embed_file_in_image, compress_files
 
 
 class Colors:
