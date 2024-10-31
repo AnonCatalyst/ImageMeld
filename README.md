@@ -4,7 +4,7 @@
 
 ## Features
 - **File Embedding**: Embed one or more files into an image without noticeable changes.
-- **ZIP Compression**: Automatically compress multiple files into a single ZIP archive before embedding.
+- **ZIP Compression**: Optional automatic compress multiple files into a single ZIP archive before embedding.
 - **Easy Extraction**: Effortlessly extract embedded files from the image.
 - **Dependency Management**: Automatically checks and installs required dependencies.
 - **User-Friendly Interface**: Interactive prompts guide you through the embedding and extraction process.
