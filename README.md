@@ -20,31 +20,15 @@
 
 ```
 Welcome to ImageMeld!
-
-This script allows you to embed one or more files into an image using steganography techniques.
-
-You will be prompted to enter the paths for:
-- The input image file (must be in a supported format like PNG).
-- The output image file that will contain the embedded data.
-- The files you want to embed (you can enter multiple files, separated by commas).
-
-Example:
-To embed a single file:
-input.png, output.png, file1.exe
-
-To embed multiple files:
-input.png, output.png, file1.exe, file2.txt, file3.scr
-
-Notes:
-- The input image must have enough capacity to hold the data from the files being embedded.
-- The output image will contain the embedded data at the end of the image file.
-- If multiple files are specified, they will be compressed into a ZIP archive before embedding.
-
-After running the script, the embedded files can be extracted from the output image.
-
-Enter the path to the input image file: test.png
-Enter the path for the output image file: testoutput.png         
-Enter the paths of the files to embed (separated by commas): test.py
-Embedded test.py into testoutput.png. File size: 25 bytes.
-Extracting file size: 1847732490 bytes.
+Choose an option:
+1. Embed files into an image
+2. Extract embedded files from an image
+0. Exit
+Enter your choice: 1
+Enter the path to the input image file: Chase-National-Bank-Logo-500x281.ico
+Enter the path for the output image file: Chase-National-Bank-Logo-500x2812.ico       
+Enter the paths of the files to embed (separated by commas): BANKING.scr, BANKINFO.exe
+Do you want to compress these files into a ZIP before embedding? (y/n): n
+Successfully embedded BANKING.scr into Chase-National-Bank-Logo-500x2812.ico.
+Successfully embedded BANKINFO.exe into Chase-National-Bank-Logo-500x2812.ico.
 ```
