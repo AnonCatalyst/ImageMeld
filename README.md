@@ -2,6 +2,8 @@
 
 **ImageMeld** is a powerful tool that allows you to embed files into images using steganography techniques. By leveraging the image's binary structure, you can securely store data within image files, making it an innovative solution for data concealment.
 
+``Project development for this project is on hold``
+
 ## Features
 - **File Embedding**: Embed one or more files into an image without noticeable changes.
 - **ZIP Compression**: Optional automatic compress multiple files into a single ZIP archive before embedding.
